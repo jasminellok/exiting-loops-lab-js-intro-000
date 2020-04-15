@@ -22,7 +22,7 @@ function keepGoing(array, changeValue, skipValue) {
 
 function findBy(array, findFn) {
   for (let i=0; i<array.length; i+=1) {
-    if (findFn === True) {
+    if (findFn === true) {
       return array[i]
     } else {
       continue
